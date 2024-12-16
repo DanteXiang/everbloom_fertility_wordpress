@@ -15,7 +15,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:6.4.2-php8.1-fpm
+    image: wordpress:6.7.1-php8.1-fpm
     container_name: wordpress
     restart: unless-stopped
     env_file: .env
